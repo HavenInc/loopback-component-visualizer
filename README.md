@@ -32,6 +32,12 @@ You can browse @ http://host:port/visualize
 }
 ```
 
+You can also get the options passed to the visualizer as below
+
+```sh
+loopbackApp.get('loopback-component-visualizer')
+```
+
 #### Preview
 
 ![A Relational Model](https://github.com/yantrashala/loopback-component-visualizer/blob/master/preview.png?raw=true "A Relational Model")
