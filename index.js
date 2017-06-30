@@ -91,7 +91,7 @@ function respond(finalObj, app) {
       var data = finalObj || {};
       var render = app.loopback.template(__dirname + '/template.ejs');
       var html = render(data);
-      res.send(200, html);
+      res.status(200).send(html);
   };
 
 }
